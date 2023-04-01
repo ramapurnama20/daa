@@ -1,0 +1,7 @@
+```mermaid
+    flowchart TD;
+
+    A(start) --> [/masukkan nilai P/];
+    B --> C{Inputan Angka};
+    C -- Tidak --> B;
+```
