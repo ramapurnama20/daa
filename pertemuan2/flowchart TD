@@ -1,7 +1,11 @@
 ```mermaid
     flowchart TD;
 
-    A(start) --> [/masukkan nilai P/];
+    A(start) --> B[/masukkan nilai P/];
     B --> C{Inputan Angka};
     C -- Tidak --> B;
+    C -- Ya -->D[/masukkan nilai L/]
+    D --> E{inputan Angka}
+    E -- Tidak --> D
+    E -- Ya -->F[/Masukkan Nilai L/];
 ```
